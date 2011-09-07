@@ -1,11 +1,7 @@
-
-
-
-
 %define oname rspec
 
 Name:           rubygem-%{oname}
-Version:        2.0.1
+Version:        2.6.0
 Release:        %mkrel 1
 Summary:        Behaviour Driven Development for Ruby
 Group:          Development/Ruby
@@ -14,9 +10,9 @@ URL:            http://rspec.info
 Source0:        http://rubygems.org/downloads/%{oname}-%{version}.gem
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:       rubygems
-Requires:       rubygem(rspec-core) = %{version}
-Requires:       rubygem(rspec-expectations) = %{version}
-Requires:       rubygem(rspec-mocks) = %{version}
+Requires:       rubygem(rspec-core)
+Requires:       rubygem(rspec-expectations)
+Requires:       rubygem(rspec-mocks)
 BuildRequires:  rubygems
 BuildArch:      noarch
 Provides:       rubygem(%{oname}) = %{version}
