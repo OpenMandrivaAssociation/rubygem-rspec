@@ -31,6 +31,5 @@ gem install --local --install-dir %{buildroot}%{ruby_gemdir} \
 %files
 %{ruby_gemdir}/gems/%{oname}-%{version}/
 %doc %{ruby_gemdir}/doc/%{oname}-%{version}
-%doc %{ruby_gemdir}/gems/%{oname}-%{version}/README.markdown
 %{ruby_gemdir}/cache/%{oname}-%{version}.gem
 %{ruby_gemdir}/specifications/%{oname}-%{version}.gemspec
