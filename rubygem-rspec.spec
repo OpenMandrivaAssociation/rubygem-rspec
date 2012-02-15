@@ -2,7 +2,7 @@
 
 Name:           rubygem-%{oname}
 Version:        2.8.0
-Release:        1
+Release:	2
 Summary:        Behaviour Driven Development for Ruby
 Group:          Development/Ruby
 License:        MIT
