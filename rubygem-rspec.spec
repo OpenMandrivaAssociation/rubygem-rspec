@@ -6,7 +6,7 @@ Release:	2
 Summary:        Behaviour Driven Development for Ruby
 Group:          Development/Ruby
 License:        MIT
-URL:            http://rspec.info
+URL:            https://rspec.info
 Source0:        http://rubygems.org/downloads/rspec-3.1.0.gem
 BuildRequires:  rubygems
 Requires:       rubygem(rspec-core)
